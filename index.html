@@ -4,13 +4,57 @@
 	<meta charset="utf-8">
 	<title>Website Template</title>
 	<link rel="stylesheet" href="./assets/css/styles.css">
+    <style>
+  .backgroundimage {
+    background-image: url('sydney_sweeny_ad.jpg');
+    width: 400px;
+    height: 400px;
+    margin: 64px auto;
+    background-size: cover; 
+  }
+
+  .backgroundimage:hover { 
+    background-image: url('double_helix_ad.jpg');
+    cursor: crosshair;
+  }
+  .text {
+    text-align: center;
+}
+
+  .text {
+    width: 50%;
+    margin: 96px auto;
+}
+h1 {
+    color: white;
+    font-size: 80px;
+    text-align: center;
+    font-family: Tahoma, Verdana, sans-serif;
+}
+
+h2 {
+    color: white;
+    font-size: 60px;
+    text-align: center;
+    font-family: 'Brush Script MT', cursive;
+}
+h3 {
+  color: crimson;
+}
+body {
+  background-color: #182C52;
+}
+  }
+</style>
 </head>
 <body>
+    <h1>SYDNEY SWEENY HAS GREAT JEANS</h1>
+    
+    <div class="text">
+        <h2 id="brand">American Eagle</h2> 
+        <div class="backgroundimage"></div>
+        <h3 id="jeans">Blue jeans</h3>
 
-	<h1>Website Template</h1>
-	<p>Fork and use this template repo (a.k.a. "boilerplate") for any web project</p>
-	<img src="assets/img/cat.jpg" alt="">
-
-	<script src="./assets/js/main.js"></script>
+    <script src="main.js"></script>
 </body>
 </html>
